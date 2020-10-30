@@ -1,0 +1,26 @@
+.title
+{
+    height: 90%;
+    color: #383735;
+}
+
+.list-items
+{
+    
+}
+.list-items .list_item
+{
+    
+}
+.list-items .list_item .num
+{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #f00;
+    font-size: 1.5rem;
+}
+.text
+{
+    flex-shrink: 10;
+}
