@@ -1,17 +1,78 @@
-.title
+
+
+
+/*Start Global Classes*/
+button:hover,
+button:active,
+button:focus
 {
-    height: 90%;
-    color: #383735;
+    box-shadow: none;
+    outline: none;
 }
 
-.list-items
+.bg-main
 {
-    
+    background-color:#EB4625;
 }
-.list-items .list_item
+.bg-main:focus
 {
-    
+    box-shadow: 0px 3px 10px #00000076 !important;
 }
+main
+{
+    font-size: 1.5rem;
+}
+.bg-second
+{
+    background-color: #F02115;
+}
+.btn-shadow
+{
+    box-shadow: 0px 3px 10px #00000076;
+}
+.card-shadow
+{
+    box-shadow: 0px 3px 10px #0000008E;
+}
+.nav-shadow
+{
+    box-shadow: 1px 3px 8px #0000004B;
+}
+/*End Global Classes*/
+
+/*Start Home*/
+.home .navbar-nav .nav-item.bg-main
+{
+    color: #fff;
+}
+.home .nav-item .nav-link
+{
+    color: #707070;
+}
+.home .main-btn
+{
+    border-radius: .7rem;
+    font-size: 1.5rem;
+}
+
+/*
+.home .inner-content
+{
+    background: url(../imgs/img.png) center center no-repeat;
+    background-size: contain;
+}
+*/
+/*End Home*/
+
+
+
+
+
+
+
+
+
+/*Start insights-section*/
 .list-items .list_item .num
 {
     width: 3rem;
@@ -24,3 +85,4 @@
 {
     flex-shrink: 10;
 }
+/*End insights-section*/
