@@ -18,5 +18,11 @@
 {
     border-radius: .9rem;
     box-shadow: 0 6px 0px #41BCB9, 0 15px 0px rgba(0,0,0,.2);
+    transition: .2s;
     font-size: 1.5rem;
+}
+.home .btn:hover
+{
+    box-shadow: 0 6px 0px #41BCB9;
+    transform: translateY(5px);
 }
